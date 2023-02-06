@@ -117,6 +117,7 @@ function TipCalculator() {
                 name="customTipValue"
                 onChange={handleChange}
                 placeholder="Custom"
+                className="custom-tip-value"
                 value={tipData.customTipValue ? tipData.customTipValue : ""}
               />
             </div>

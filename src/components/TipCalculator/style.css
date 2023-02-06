@@ -103,10 +103,15 @@ input:focus {
   color: var(--very-dark-cyan);
 }
 
-.tip-selector-options input {
+.custom-tip-value {
   background-color: var(--very-light-grayish-cyan);
   text-align: right;
+  padding: 0 10px;
   color: var(--very-dark-cyan);
+}
+
+.custom-tip-value:placeholder-shown {
+  text-align: center;
 }
 
 .results-container {
